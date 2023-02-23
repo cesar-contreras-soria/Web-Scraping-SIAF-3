@@ -110,7 +110,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from multiprocessing import Pool
 
-def(siaf):
+def siaf(year):
     options = webdriver.ChromeOptions()
     options.add_argument('--start-maximized')
     options.add_experimental_option('prefs', {
